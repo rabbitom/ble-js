@@ -1,0 +1,28 @@
+{
+  "name": "ble-sdk",
+  "version": "0.0.0",
+  "description": "A Bluetooth Low Energy SDK, which define device with JSON and map characteristics to strings.",
+  "main": "index.js",
+  "bin": {
+    "ble-export": "export.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabbitom/ble-js.git"
+  },
+  "keywords": [
+    "ble"
+  ],
+  "author": "erabbit",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rabbitom/ble-js/issues"
+  },
+  "homepage": "https://github.com/rabbitom/ble-js#readme",
+  "dependencies": {
+    "bleno": "^0.4.2"
+  }
+}
