@@ -1,6 +1,6 @@
 {
     "name": "ble-sdk",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "A Bluetooth Low Energy SDK, which define device with JSON and map characteristics to strings.",
     "main": "index.js",
     "bin": {
@@ -23,6 +23,6 @@
     },
     "homepage": "https://github.com/rabbitom/ble-js#readme",
     "dependencies": {
-        "bleno": "^0.5.0"
+        "@abandonware/bleno": "^0.5.1-4"
     }
 }
